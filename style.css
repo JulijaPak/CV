@@ -51,6 +51,10 @@ h1 {
     margin-left: 30px;
 }
 
+#about-content p {
+    font-size: 30px;
+}
+
 #about img {
     width: 30%;
 }
