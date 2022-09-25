@@ -1,6 +1,7 @@
 * {
-    font-family: 'Lateef', cursive;
+    font-family: 'Lora', serif;
     scroll-behavior: smooth;
+    font-size: 23px;
 }
 
 .content {
@@ -9,7 +10,7 @@
 }
 
 .frame-header {
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -45,7 +46,7 @@ header {
 }
 
 h1 {
-    padding-top: 80px;
+    padding-top: 100px;
     margin-top: 0;
 }
 
@@ -54,7 +55,7 @@ h1 {
 }
 
 #about-content p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 #about img {
@@ -100,6 +101,7 @@ footer h1 {
 .fa-brands {
     margin: 0 25px 0 25px;
     font-size: 35px;
+    color: gray;
 }
 
 #footerIcons {
@@ -240,7 +242,9 @@ footer h1 {
 @media only screen and (max-width: 600px) {
     .header-button {
         margin: 15px;
+        font-size: 18px;
     }
+
     #projects {
         flex-direction: column;
         gap: 20px;
