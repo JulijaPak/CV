@@ -67,6 +67,11 @@ h1 {
     background-color: rgb(255, 244, 230);
 }
 
+.coursesHeader {
+    font-size: 35px;
+    text-align: center;
+}
+
 table {
     width: 100%;
     border-spacing: 80px;
@@ -133,8 +138,8 @@ footer h1 {
 #gridContainer {
     display: grid;
     grid-template-areas: 
-        'one two'
-        'three three';
+        'one two three'
+        'four five six';
     grid-gap: 10px;
     font-size: 25px;
 }
@@ -149,16 +154,27 @@ footer h1 {
     width: 300px;
     margin: auto;
 }
+
 #secondGrid {
     grid-area: two;
     width: 300px;
     margin: auto;
 }
+
 #thirdGrid {
     grid-area: three;
+    width: 300px;
+    margin: auto;
 }
 
-#thirdGridCenter {
+#forthGrid {
+    grid-area: four;
+    width: 300px;
+    margin: auto;
+}
+
+#fifthGrid {
+    grid-area: five;
     width: 300px;
     margin: auto;
 }
